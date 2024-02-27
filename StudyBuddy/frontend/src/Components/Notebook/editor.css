@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Exo+2&family=Roboto&display=swap");
+.text-area {
+  margin: 0;
+}
+.cont {
+  width: 730px;
+  height: 500px;
+  box-sizing: border-box;
+  border: transparent;
+}
+
+.ql-container.ql-snow {
+  border: none;
+}
+.ql-toolbar.ql-snow {
+  display: flex;
+  justify-content: center;
+  border: none;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+.editor-button {
+  z-index: 2;
+  position: sticky;
+}
+.titletext {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Crimson Text", serif;
+}
